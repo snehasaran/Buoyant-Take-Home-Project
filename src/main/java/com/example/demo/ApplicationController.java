@@ -9,7 +9,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
@@ -40,7 +39,7 @@ public class ApplicationController {
 				linkerdTcpHealth,linkerdVizHealth);
 	}
 
-	@RequestMapping(method=RequestMethod.PUT, value="/shift/{value}")
+	@RequestMapping("/shift/{value}")
 	public HttpStatus update(@PathVariable String value) {
 		log.info("value =" + value);
 		int redis2_data = Integer.parseInt(value);
@@ -61,7 +60,6 @@ public class ApplicationController {
 		log.info(response.getHeaders().toString());
 		log.info(response.toString());
 		return response.getStatusCode();
-
 	}
 
 	private String getHealth(String uri){
