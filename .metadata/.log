@@ -1,0 +1,133 @@
+!SESSION 2017-05-14 20:16:40.639 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/Aniket/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Users/Aniket/Documents/NeonWorkspace/demo -product org.eclipse.epp.package.jee.product -keyring /Users/Aniket/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-14 20:16:56.097
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2017-05-14 20:16:57.303
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-05-14 20:16:57.303
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2dbf2da,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21a5b599,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-05-14 20:16:57.303
+!MESSAGE A conflict occurred for ALT+COMMAND+Q P:
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.php.ui.explorer,PHP Script Explorer,
+		Shows the Script Explorer,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7db162f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.ui.views.showView,Show View,
+		Shows a particular view,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64f3991e,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@39e3ea78,,true),[Lorg.eclipse.core.commands.Parameterization;@35e689a0),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2017-05-14 20:16:58.538
+!MESSAGE Could not load repository template extension contributed by org.springsource.ide.eclipse.dashboard.ui with connectorKind jira
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2017-05-14 20:16:58.538
+!MESSAGE Could not load repository template extension contributed by org.springsource.ide.eclipse.dashboard.ui with connectorKind jira
+
+!ENTRY org.eclipse.php.core 4 10001 2017-05-14 20:17:24.642
+!MESSAGE PHPCore plugin internal error
+!STACK 1
+org.eclipse.dltk.core.ModelException: RemoteSystemsTempFiles does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:270)
+	at org.eclipse.dltk.internal.core.ModelManager.getPerProjectInfoCheckExistence(ModelManager.java:939)
+	at org.eclipse.dltk.internal.core.ScriptProject.getPerProjectInfo(ScriptProject.java:543)
+	at org.eclipse.dltk.internal.core.ScriptProject.getResolvedBuildpath(ScriptProject.java:290)
+	at org.eclipse.dltk.internal.core.ScriptProject.buildStructure(ScriptProject.java:509)
+	at org.eclipse.dltk.internal.core.Openable.generateInfos(Openable.java:195)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:196)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:183)
+	at org.eclipse.dltk.internal.core.ModelElement.getChildren(ModelElement.java:368)
+	at org.eclipse.dltk.internal.core.ModelElement.getChildren(ModelElement.java:363)
+	at org.eclipse.dltk.internal.core.ScriptProject.getProjectFragments(ScriptProject.java:1528)
+	at org.eclipse.php.internal.core.PHPCorePlugin.reindexAllProjects(PHPCorePlugin.java:213)
+	at org.eclipse.php.internal.core.PHPCorePlugin.checkStructureVersionAndReindex(PHPCorePlugin.java:195)
+	at org.eclipse.php.internal.core.PHPCorePlugin.access$5(PHPCorePlugin.java:177)
+	at org.eclipse.php.internal.core.PHPCorePlugin$1.run(PHPCorePlugin.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-05-14 20:17:24.643
+!MESSAGE RemoteSystemsTempFiles does not exist
+!SESSION 2017-05-14 20:17:54.295 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Aniket/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Aniket/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-14 20:18:08.600
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2017-05-14 20:18:10.063
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-05-14 20:18:10.063
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4751cd3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64ec1459,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-05-14 20:18:10.063
+!MESSAGE A conflict occurred for ALT+COMMAND+Q P:
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.php.ui.explorer,PHP Script Explorer,
+		Shows the Script Explorer,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1aac0a47,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.ui.views.showView,Show View,
+		Shows a particular view,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b3ad7ca,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@6785c9fa,,true),[Lorg.eclipse.core.commands.Parameterization;@63cf578f),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2017-05-14 20:18:12.101
+!MESSAGE Could not load repository template extension contributed by org.springsource.ide.eclipse.dashboard.ui with connectorKind jira
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2017-05-14 20:18:12.102
+!MESSAGE Could not load repository template extension contributed by org.springsource.ide.eclipse.dashboard.ui with connectorKind jira
